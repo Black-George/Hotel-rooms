@@ -8,10 +8,33 @@
   </head>
   <body>
     <img src="../assets/logo.svg" alt="logo" />
-    <div class="text-field left">
-      <label for="email">Text field</label>
-      <span class="field-desc">Default</span>
-      <input type="email" id="email" value="" />
+    <div class="left">
+      <div class="text-field mail">
+        <label for="email">Text field</label>
+        <span class="field-desc">Default</span>
+        <input type="email" id="email" value="Email" />
+      </div>
+      <div class="text-field active">
+        <label for="act">Text field</label>
+        <span class="field-desc">Hover / Focus</span>
+        <input type="text" id="act" value="This is pretty awesome" />
+      </div>
+      <div class="text-field dropdown">
+        <label for="standard-select">Dropdown</label>
+        <div class="select">
+          <select name="" id="standard-select">
+            <option value="Option 1" selected disabled hidden>
+              Сколько гостей
+            </option>
+            <option value="Option 2">Option 2</option>
+            <option value="Option 3">Option 3</option>
+            <option value="Option length">
+              Option that has too long of a value to fit
+            </option>
+          </select>
+          <span class="focus"></span>
+        </div>
+      </div>
     </div>
   </body>
 </html>
