@@ -199,7 +199,10 @@ input[type='date']:valid:before {
 .date-drop-2 {
   top: 502px;
   width: 150px;
-  display: block;
+}
+
+.date-drop-2 {
+  margin-left: 170px;
 }
 
 .date-drop-1 input,
@@ -207,9 +210,7 @@ input[type='date']:valid:before {
   line-height: 18px;
 }
 
-.wrapper {
-  width: 320px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.filter-date {
+  top: 607px;
+  width: 266px;
 }
